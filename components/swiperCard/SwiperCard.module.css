@@ -1,0 +1,27 @@
+.location {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid var(--almost_white);
+}
+.location img {
+  width: 100%;
+  height: 8rem;
+  object-fit: cover;
+  object-position: bottom;
+}
+.content {
+  padding: 1rem 1.5rem;
+}
+.content p:first-child {
+  font-weight: 700;
+  font-size: 20px;
+}
+.content p:last-child {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+}
+.content p:last-child svg {
+  margin-left: 20px;
+}

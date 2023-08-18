@@ -1,0 +1,4 @@
+.locations {
+  position: relative;
+  padding: var(--section_padding);
+}
