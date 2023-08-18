@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+  padding: 35px 20px;
+  background: var(--almost_black);
+}
+@media (min-width: 1024px) {
+  .header {
+    padding: 38px 120px;
+  }
+}

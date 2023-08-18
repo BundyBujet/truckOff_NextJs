@@ -1,0 +1,49 @@
+.mobileNav {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileNav {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo a {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--yellow);
+  }
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+  }
+  .line {
+    position: relative;
+  }
+  .line::after,
+  .line::before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 2px;
+    right: 0px;
+    background: var(--yellow);
+    transition: all 0.25s ease-in-out;
+  }
+  .line::before {
+    transform: translateY(-5px);
+  }
+  .line::after {
+    transform: translateY(5px);
+  }
+  .open::before {
+    transform: rotate(-45deg);
+  }
+  .open::after {
+    transform: rotate(45deg);
+  }
+}

@@ -1,0 +1,9 @@
+.hero {
+  min-height: 80vh;
+  position: relative;
+}
+
+.hero img {
+  object-fit: cover;
+  object-position: left;
+}
